@@ -1,0 +1,61 @@
+
+Training Data Model Summary:
+               Coefficients
+OrtGel            6.404277
+Bina_Yasi         0.502643
+OrtOda          -17.590206
+Ort_Y            26.938450
+Nufus            -0.060529
+Ort_Hane         -4.609257
+Enlem            -3.962018
+Boylam           -4.348192
+Port_no           0.105547
+Training MAE      0.530415
+
+Test Data Model Summary:
+            Coefficients
+OrtGel         6.404277
+Bina_Yasi      0.502643
+OrtOda       -17.590206
+Ort_Y         26.938450
+Nufus         -0.060529
+Ort_Hane      -4.609257
+Enlem         -3.962018
+Boylam        -4.348192
+Port_no        0.105547
+Test MAE       0.531614
+
+Statsmodels:
+                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Fiyat   R-squared:                       0.607
+Model:                            OLS   Adj. R-squared:                  0.607
+Method:                 Least Squares   F-statistic:                     3543.
+Date:                Mon, 05 Feb 2024   Prob (F-statistic):               0.00
+Time:                        11:43:03   Log-Likelihood:                -22598.
+No. Observations:               20640   AIC:                         4.522e+04
+Df Residuals:                   20630   BIC:                         4.530e+04
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          3.5830      0.070     51.101      0.000       3.446       3.720
+OrtGel         6.3515      0.061    104.394      0.000       6.232       6.471
+Bina_Yasi      0.5157      0.023     22.187      0.000       0.470       0.561
+OrtOda       -15.5647      0.831    -18.722      0.000     -17.194     -13.935
+Ort_Y         22.2202      0.950     23.386      0.000      20.358      24.083
+Nufus         -0.1023      0.169     -0.604      0.546      -0.434       0.230
+Ort_Hane      -4.7681      0.605     -7.881      0.000      -5.954      -3.582
+Enlem         -3.9047      0.068    -57.287      0.000      -4.038      -3.771
+Boylam        -4.2757      0.077    -55.881      0.000      -4.426      -4.126
+Port_no        0.1288      0.018      7.124      0.000       0.093       0.164
+==============================================================================
+Omnibus:                     4423.106   Durbin-Watson:                   0.892
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            14417.707
+Skew:                           1.084   Prob(JB):                         0.00
+Kurtosis:                       6.474   Cond. No.                         344.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
