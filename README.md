@@ -13,7 +13,7 @@ This project focuses on predicting real estate prices using linear regression mo
 
 ### Prerequisites
 Ensure you have the following installed:
-- Python 3.x
+- Python 3.11
 - Pandas
 - Scikit-learn
 - Statsmodels
